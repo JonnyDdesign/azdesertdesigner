@@ -1,11 +1,45 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.header {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.nav {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
 
 .logo {
-    height: 50px;
-    width: 50px;
-    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.main {
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
 }
 
 main img {
-    width: 50px;
-
+    width: 100%;
 }
