@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .container {
@@ -30,8 +30,8 @@ body {
 
 a {
     text-decoration: none;
-    color: #ffffff;
     margin: 0px 10px 0px 10px;
+    color: #000000;
 }
 
 a:hover {
