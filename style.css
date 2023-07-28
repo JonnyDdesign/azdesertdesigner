@@ -5,22 +5,21 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: auto;
 }
 
 .header {
     display: grid;
-    grid-column: 1 / 4;
+    grid-column: 1 / 6;
     grid-row: 1;
-    padding-top: 15px;
-    padding-left: 5px;
+    padding-top: 10px;
 }
 
 .nav {
     display: grid;
-    grid-column: 3 / 4;
+    grid-column: 4 / 6;
     grid-row: 1;
 }
 
@@ -41,21 +40,37 @@ a:hover {
 }
 
 .logo {
-    height: 13vh;
-    width: 13vh;
+    width: 20%;
+    padding: 10px;
 }
 
 main {
     display: grid;
-    grid-column: 1 / 4;
-    grid-row: 2 / 4;
+    grid-column: 1 / 6;
+}
+
+.main h1 {
+    display: grid;
+    grid-column: 3;
     text-align: center;
+}
+
+.main h2 {
+    display: grid;
+    grid-column: 3;
+    text-align: center;
+}
+
+img {
+    display: grid;
+    grid-column: 3;
+    width: 60%;
 }
 
 footer {
     display: grid;
-    grid-column: 1 / 4;
-    grid-row: 5 / 5;
+    grid-column: 1 / 6;
+    grid-row: 6;
     text-align: center;
     background-color: #000000;
     color: #ffffff;
