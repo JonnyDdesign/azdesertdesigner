@@ -3,75 +3,111 @@ body {
     background-color: #ffffff;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    grid-auto-rows: auto;
-}
-
 .header {
-    display: grid;
-    grid-column: 1 / 6;
-    grid-row: 1;
+    display: flex;
     padding-top: 10px;
 }
 
-.nav {
-    display: grid;
-    grid-column: 4 / 6;
-    grid-row: 1;
+header .logo {
+    width: 20%;
+    padding-left: 20px;
+    border: none;
 }
 
-.nav ul {
+.nav-links ul {
     display: flex;
     list-style: none;
-    align-items: center;
+    padding-left: 0;
+    padding-right: 5px;
 }
 
-a {
+.nav-links li a {
     text-decoration: none;
-    margin: 0px 10px 0px 10px;
     color: #000000;
-}
-
-a:hover {
-    color: gold;
-}
-
-.logo {
-    width: 20%;
-    padding: 10px;
-}
+    padding: 1rem;
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
 
 main {
-    display: grid;
-    grid-column: 1 / 6;
+    margin-top: 20px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background-image: url(images/geobackground.jpg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
 }
 
-.main h1 {
-    display: grid;
-    grid-column: 3;
+h1 {
     text-align: center;
+    font-size: 5rem;
+    font-family: 'Satisfy', Courier, monospace;
+    letter-spacing: 10px;
 }
 
-.main h2 {
-    display: grid;
-    grid-column: 3;
+h2 {
+    font-size: 3rem;
     text-align: center;
+    text-decoration: underline;
+    font-family: 'Kalam', Courier, monospace;
 }
 
-img {
-    display: grid;
-    grid-column: 3;
-    width: 60%;
+.nature img {
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.cars img {
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.animals img {
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.misc img {
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 50px;
 }
 
 footer {
-    display: grid;
-    grid-column: 1 / 6;
-    grid-row: 6;
+    height: 35px;
     text-align: center;
     background-color: #000000;
     color: #ffffff;
+}
+
+footer a {
+    color: #66e6f9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#5ef6a7; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
