@@ -10,18 +10,27 @@ body {
 
 header .logo {
     width: 20%;
-    padding-left: 20px;
-    border: none;
 }
 
-.nav-links ul {
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+.nav ul {
+    position: absolute;
+    top: 35px;
+    right: 10px;
     display: flex;
     list-style: none;
     padding-left: 0;
     padding-right: 5px;
 }
 
-.nav-links li a {
+.nav li a {
     text-decoration: none;
     color: #000000;
     padding: 1rem;
