@@ -7,38 +7,55 @@
     <link rel="icon" type="image/png" href="images/AZ Desert Designer Favicon.png">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <figure>
-          <a href="index.html"><img class="logo" src="images/Logo.png" alt="logo for AZ Desert Designer"/></a>
-        </figure>
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="featured.html">Featured</a></li>
-                <li><a href="cars.html">Cars</a></li>
-                <li><a href="animals.html">Animals</a></li>
-                <li><a href="nature.html">Nature</a></li>
-            </ul>
+    <nav class="navbar">
+        <div class="logo">
+            <figure>
+                <a href="index.html"><img src="images/Logo.png" alt="logo for AZ Desert Designer"/></a>
+            </figure>
+        </div>
+        <div class="hamburger">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="featured.html" class="nav-link">Featured</a></li>
+            <li class="nav-item"><a href="cars.html" class="nav-link">Cars</a></li>
+            <li class="nav-item"><a href="animals.html" class="nav-link">Animals</a></li>
+            <li class="nav-item"><a href="nature.html" class="nav-link">Nature</a></li>
+        </ul>
         </nav>
-    </header>
+    </nav>
     <main class="main">
         <h1>Nature</h1>
     </main>
-    <section id="naturegallery">
-        <img src="images/lily pond.jpg" class="nature1" alt="lily pond">
-        <img src="images/shadow creek.jpg" class="nature2" alt="shadows casting over creek">
-        <img src="images/desert rose.jpg" class="nature3" alt="first bloom of desert rose plant">
-        <img src="images/hibiscus.jpg" class="nature4" alt="red hibiscus bloom">
-        <img src="images/purpleflower.JPG" class="nature5" alt="purple flower">
-        <img src="images/desert rose.jpg" class="nature6" alt="">
-        <img src="images/purpleflower.JPG" class="nature7" alt="">
-        <img src="images/hibiscus.jpg" class="nature8" alt="">
+    <section class="naturegallery">
+        <div class="gallery">
+            <figure class="gallery_item nature1">
+                <img src="images/purple_flower.webp" class="gallery_img" alt="vibrant purple flower">
+            </figure>
+            <figure class="gallery_item nature2">
+                <img src="images/hibiscus.webp" class="gallery_img" alt="red hibiscus bloom">
+            </figure>
+            <figure class="gallery_item nature3">
+                <img src="images/truckee_trees.webp" class="gallery_img" alt="low perspective from truckee trees">
+            </figure>
+            <figure class="gallery_item nature4">
+                <img src="images/shadow_creek.webp" class="gallery_img" alt="shadow casting of three people over creek">
+            </figure>
+            <figure class="gallery_item nature5">
+                <img src="images/night_cactus.webp" class="gallery_img" alt="moonlit cactus">
+            </figure>
+        </div>
     </section>
     <footer>
         <h5>Created by <a href="https://www.jonnyddesign.com">JonnyDdesign</a> &copy2023</h5>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
