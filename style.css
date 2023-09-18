@@ -1,7 +1,8 @@
-*, *::after, *::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  overflow: hidden;
 }
 
 html {
@@ -58,7 +59,7 @@ body {
   cursor: pointer;
 }
 
-.bar1,.bar2,.bar3 {  
+.bar1, .bar2, .bar3 {  
   display: block;  
   width: 35px;  
   height: 3px;  
@@ -355,11 +356,11 @@ footer a:hover {
     color: #ffffff;
   }
 
-  .nav-change{  
+  .nav-change {  
     transform: translate(0%);
   }
 
-  .hamburger{  
+  .hamburger {  
     display: block;
   }
 
