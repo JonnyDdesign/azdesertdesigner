@@ -45,12 +45,11 @@ body {
 }
 
 .nav-link {
-  color: #000000;
   text-decoration: none;
   font-size: 1.3rem;
   font-family: 'Kalam', Courier, monospace;
   text-transform: uppercase;
-  color: #00788b;
+  color: #1b8292;
 }
 
 .hamburger {
